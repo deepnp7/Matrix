@@ -9,7 +9,8 @@ int main() {
 
    // Input elements of the first matrix
    printf("\nEnter the elements of the first matrix:\n");
-   for(i = 0; i < m; i++) {
+   for(i = 0; i < m; i++) 
+   {
       for(j = 0; j < n; j++) {
          scanf("%d", &matrix1[i][j]);
       }
