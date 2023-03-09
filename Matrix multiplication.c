@@ -32,7 +32,6 @@ int main()
             }
         }
     }
-
     // print the matrices and result
     printf("Matrix a:\n");
     for (int i = 0; i < rows; ++i) {
