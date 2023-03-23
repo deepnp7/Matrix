@@ -5,7 +5,7 @@ int main()
     int rows, columns, i, j;
 
     printf("Enter the number of rows and columns for the matrices: ");
-    scanf("%d %d", &rows, &cols);
+    scanf("%d %d", &rows, &columns);
 
     int matrix1[rows][cols], matrix2[rows][cols], result[rows][cols];
 
