@@ -11,7 +11,7 @@ int main()
 
     printf("Enter the elements of the first matrix:\n");
     for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++) {
+        for (j = 0; j < columns; j++) {
             scanf("%d", &matrix1[i][j]);
         }
     }
