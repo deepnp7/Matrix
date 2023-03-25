@@ -25,7 +25,7 @@ int main()
 
     // Subtract the matrices
     for (i = 0; i < rows; i++) {
-        for (j = 0; j < cols; j++) {
+        for (j = 0; j < columns; j++) {
             result[i][j] = matrix1[i][j] - matrix2[i][j];
         }
     }
