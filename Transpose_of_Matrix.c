@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int rows, cols;
+    int rows, columns;
     printf("Enter the number of rows in the matrix: ");
     scanf("%d", &rows);
     printf("Enter the number of columns in the matrix: ");
