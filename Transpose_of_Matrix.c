@@ -7,7 +7,7 @@ int main() {
     printf("Enter the number of columns in the matrix: ");
     scanf("%d", &columns);
 
-    int matrix[rows][cols];
+    int matrix[rows][columns];
     printf("Enter the elements of the matrix: \n");
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < columns; j++) {
