@@ -15,7 +15,7 @@ int main() {
         }
     }
 
-    int transpose[cols][rows];
+    int transpose[columns][rows];
     for (int i = 0; i < rows; i++) {
         for (int j = 0; j < cols; j++) {
             transpose[j][i] = matrix[i][j];
