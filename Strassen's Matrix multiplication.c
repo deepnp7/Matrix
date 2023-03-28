@@ -33,6 +33,7 @@ int main(){
      
       for(j = 0;j < 2; j++)
            printf("%d\t", c[i][j]);
+     
    }
    return 0;
 }
