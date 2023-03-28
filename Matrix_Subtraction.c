@@ -10,7 +10,8 @@ int main()
     int matrix1[rows][columns], matrix2[rows][columns], result[rows][columns];
 
     printf("Enter the elements of the first matrix:\n");
-    for (i = 0; i < rows; i++) {
+    for (i = 0; i < rows; i++) 
+    {
         for (j = 0; j < columns; j++) {
             scanf("%d", &matrix1[i][j]);
         }
