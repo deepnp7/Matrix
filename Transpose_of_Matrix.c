@@ -33,7 +33,7 @@ int main() {
         {
             printf("%d ", transpose[i][j]);
         }
-        printf("\n");
+       printf("\n");
     }
 
     return 0;
