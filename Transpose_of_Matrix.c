@@ -13,7 +13,7 @@ int main() {
     {
       for (int j = 0; j < columns; j++) 
         {
-           scanf("%d", &matrix[i][j]);
+          scanf("%d", &matrix[i][j]);
         }
     }
 
