@@ -14,7 +14,7 @@ int main() {
       for (int j = 0; j < columns; j++) 
       {
         scanf("%d", &matrix[i][j]);
-       }
+      }
     }
 
     int transpose[columns][rows];
