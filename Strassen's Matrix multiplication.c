@@ -6,7 +6,7 @@ int main(){
   printf("Enter the 4 elements of first matrix: ");
   for(i = 0;i < 2; i++)
       for(j = 0;j < 2; j++)
-           scanf("%d", &a[i][j]);
+          scanf("%d", &a[i][j]);
  
   printf("Enter the 4 elements of second matrix: ");
   for(i = 0; i < 2; i++)
