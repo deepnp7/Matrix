@@ -11,7 +11,7 @@ int main(){
   printf("Enter the 4 elements of second matrix: ");
   for(i = 0; i < 2; i++)
      for(j = 0;j < 2; j++)
-           scanf("%d", &b[i][j]);
+          scanf("%d", &b[i][j]);
  
   m1= (a[0][0] + a[1][1]) * (b[0][0] + b[1][1]);
   m2= (a[1][0] + a[1][1]) * b[0][0];
