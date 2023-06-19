@@ -40,7 +40,8 @@ int main()
     printf("Result Matrix:\n");
     for (i = 0; i < rows; i++) 
     {
-        for (j = 0; j < columns; j++) {
+        for (j = 0; j < columns; j++) 
+        {
             printf("%d ", result[i][j]);
         }
         printf("\n");
