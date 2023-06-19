@@ -11,7 +11,8 @@ int main()
     // read input matrices a and b from user
     printf("Enter elements of matrix a:\n");
     for (int i = 0; i < rows; ++i) {
-        for (int j = 0; j < cols; ++j) {
+        for (int j = 0; j < cols; ++j) 
+        {
             scanf("%d", &a[i][j]);
         }
     }
