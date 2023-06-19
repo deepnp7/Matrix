@@ -14,7 +14,7 @@ int main()
     {
         for (int j = 0; j < cols; ++j) 
         {
-            scanf("%d", &a[i][j]);
+           scanf("%d", &a[i][j]);
         }
     }
 
