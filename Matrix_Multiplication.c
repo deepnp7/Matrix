@@ -19,7 +19,8 @@ int main()
     }
 
     printf("Enter elements of matrix b:\n");
-    for (int i = 0; i < rows; ++i) {
+    for (int i = 0; i < rows; ++i) 
+    {
         for (int j = 0; j < cols; ++j) {
             scanf("%d", &b[i][j]);
         }
