@@ -19,7 +19,8 @@ int main()
     }
 
     printf("Enter the elements of the second matrix:\n");
-    for (i = 0; i < rows; i++) {
+    for (i = 0; i < rows; i++) 
+    {
         for (j = 0; j < columns; j++) {
             scanf("%d", &matrix2[i][j]);
         }
