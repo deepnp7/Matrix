@@ -20,7 +20,7 @@ int main() {
     int transpose[columns][rows];
     for (int i = 0; i < rows; i++) 
     {
-        for (int j = 0; j < columns; j++) 
+      for (int j = 0; j < columns; j++) 
         {
              transpose[j][i] = matrix[i][j];
         }
