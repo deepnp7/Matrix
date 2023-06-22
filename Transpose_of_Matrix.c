@@ -22,7 +22,7 @@ int main() {
     {
       for (int j = 0; j < columns; j++) 
         {
-             transpose[j][i] = matrix[i][j];
+          transpose[j][i] = matrix[i][j];
         }
     }
 
